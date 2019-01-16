@@ -208,7 +208,7 @@ iframe {
 }
 
 .row .cell:nth-child(1) {
-  width: 240px;
+  width: 220px;
   padding-left: 40px;
 }
 
@@ -221,7 +221,7 @@ iframe {
 }
 
 .row .cell:nth-child(4) {
-  width: 200px;
+  width: 220px;
 }
 
 
