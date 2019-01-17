@@ -245,7 +245,8 @@
             <p>During this course I have done two exercises. The first one is about LISP (Locator Identifier Separation Protocol).
             </p>
             <img class="img-fluid" src="img/firstemerging.png">
-            <p>The question is how an IPv6 packet leaving S can reach its destination D, then detail the flow of actions that follows a loss of IP connectivity due to a failure of router R2 interface. The second one is about SDN (Software Defined Network).
+            <p>
+              The question is how an IPv6 packet leaving S can reach its destination D, then detail the flow of actions that follows a loss of IP connectivity due to a failure of router R2 interface. The second one is about SDN (Software Defined Network).
             </p>
             <img class="img-fluid" src="img/secondemerging.png">
             <p>The question is that what are the necessary openflow rules to install on the SDN switch to let the UDP CoAP traffic flow from the Gateway to Device 1 and let the Gateway open the ssh session on both devices.
@@ -258,19 +259,13 @@
             </p>
             <p>
               Firstly, R1 sends an IPv4 packet with: @dest = 25.0.0.1, @src = 20.0.0.1, the IPv6 packet encapsulated.
-            </p>
-            <p>
               Secondly, R2 decapsulated the Ipv6 packet with: @dest = 200:db8:2:1, @src = 2001:db8:1:1
-            </p>
-            <p>
               Finally, R2 sends the packet to D.
             </p>
-
             <p>
               For the second question:
               We need to identify the match rules first.
             </p>
-
             <div class="table">
               <div class="row header">
                 <div class="cell">Match rules</div>
