@@ -252,7 +252,44 @@
             </p>
 
             <h3>C.VI.2. Resolution of problem</h3>
-            <p></p>
+            <p>
+              For the first question:
+              S generates IPv6 packet to D, IPv6 network forwards IPv6 packet to R1. ITR: looks the dest@, checks if it’s a LISP site, verifies on the mapping or ask to the EID-RLOC mapping resolution system, MR (Map-Resolver) sends the request to MS (Map-Server) (to know the RLOC of an EID). R3 tells to MS2 that if MS2 wants to reach 2001:db8:1::/48 he has to pass to R3, R3 answers to R1 the RLOC related to EID.
+            </p>
+            <p>
+              Firstly, R1 sends an IPv4 packet with: @dest = 25.0.0.1, @src = 20.0.0.1, the IPv6 packet encapsulated.
+            </p>
+            <p>
+              Secondly, R2 decapsulated the Ipv6 packet with: @dest = 200:db8:2:1, @src = 2001:db8:1:1
+            </p>
+            <p>
+              Finally, R2 sends the packet to D.
+            </p>
+
+            <p>
+              For the second question:
+              We need to identify the match rules first.
+            </p>
+
+            <div class="table">
+              <div class="row header">
+                <div class="cell">Match rules</div>
+                <div class="cell">Action</div>
+              </div>
+              <div class="row">
+                <div class="cell">@IPdest = IPdevice1, dest port = 5683</div>
+                <div class="cell">switch to eth1</div>
+              </div>
+              <div class="row">
+                <div class="cell">
+                  interface: eth1, @IPsrc = IPdevice1, @IPdest = IPgw, source port = 5683
+                </div>
+                <div class="cell">
+                  switch to eth0
+                </div>
+              </div>
+            </div>
+
             <h3>C.VI.3. The knowledge and skills mobilized</h3>
             <p>	I have acquired theoretical skills during each lecture and operational skills during the two labs. I have learned about the SDN and LISP and that has broadened my knowledge in the domain of network and the openflow. For the two labs, I have really configured the network by myself and I had a better understand about what I learned during this course.
             </p>
@@ -292,7 +329,6 @@
             <p>	In summary, this course brought me a good knowledge in the creativity and innovation domain. During this course, we just know a little about TRIZ method so there still are many potential things need to learn. It’s good that we know more about TRIZ method so that we can practice it during future work.
             </p>
 
-            <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
             </div>
           </div>
         </div>
