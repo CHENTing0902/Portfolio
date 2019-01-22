@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c67a3f3a-ef41-498b-b9a4-be565c5dd040" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/descriptive.html" beforeDir="false" afterPath="$PROJECT_DIR$/descriptive.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/technical.html" beforeDir="false" afterPath="$PROJECT_DIR$/technical.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -74,23 +73,23 @@
     <session id="-601595075">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.8" value="6" />
+          <entry key="project.open.time.8" value="7" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="86" />
-          <entry key="html" value="5211" />
+          <entry key="html" value="5971" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="86" />
-          <entry key="HTML" value="5211" />
+          <entry key="HTML" value="5971" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -124,7 +123,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analytical.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="1620">
               <caret line="1181" column="17" selection-start-line="1181" selection-start-column="17" selection-end-line="1181" selection-end-column="17" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -136,7 +135,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/descriptive.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="3495">
               <caret line="233" column="142" selection-start-line="233" selection-start-column="142" selection-end-line="233" selection-end-column="142" />
             </state>
           </provider>
@@ -154,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/technical.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="243" column="85" selection-start-line="243" selection-start-column="85" selection-end-line="243" selection-end-column="85" />
+            <state relative-caret-position="353">
+              <caret line="250" column="135" selection-start-line="250" selection-start-column="135" selection-end-line="250" selection-end-column="135" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -337,12 +336,13 @@
       <workItem from="1547844291804" duration="1607000" />
       <workItem from="1547927599438" duration="587000" />
       <workItem from="1548004212232" duration="2807000" />
-      <workItem from="1548097696792" duration="4005000" />
+      <workItem from="1548097696792" duration="4368000" />
+      <workItem from="1548140876273" duration="1933000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64134000" />
+    <option name="totallyTimeSpent" value="66430000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -522,6 +522,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/analytical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="1181" column="17" selection-start-line="1181" selection-start-column="17" selection-end-line="1181" selection-end-column="17" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/descriptive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3495">
+          <caret line="233" column="142" selection-start-line="233" selection-start-column="142" selection-end-line="233" selection-end-column="142" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/annexes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2790">
@@ -543,27 +560,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analytical.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="1181" column="17" selection-start-line="1181" selection-start-column="17" selection-end-line="1181" selection-end-column="17" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/descriptive.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="233" column="142" selection-start-line="233" selection-start-column="142" selection-end-line="233" selection-end-column="142" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/technical.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="243" column="85" selection-start-line="243" selection-start-column="85" selection-end-line="243" selection-end-column="85" />
+        <state relative-caret-position="353">
+          <caret line="250" column="135" selection-start-line="250" selection-start-column="135" selection-end-line="250" selection-end-column="135" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
